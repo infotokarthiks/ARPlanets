@@ -70,6 +70,7 @@ class ViewController: UIViewController {
         moonParent.addChildNode(moon)
     }
     
+    // Defines Planets Geometrical Structure and Layers
     func planet(geometry: SCNGeometry, diffuse: UIImage?, specular: UIImage?, emission: UIImage?, normal: UIImage?, position: SCNVector3) -> SCNNode
     {
         let planet = SCNNode(geometry: geometry)
